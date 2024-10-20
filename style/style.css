@@ -7,16 +7,20 @@
 
 /* NAVIGATION BAR */
 nav{
-    text-align: center;
-    display: flex;
-    gap: 900px;
     box-shadow: 0px 0px 10px;
     width: 100%;
 }
 
+.nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
 .l_nav_o{
     display: flex;
-    margin-left: 60px;
+    /* margin-left: 60px; */
+    width: 300px;
 }
 
 .navli li{
@@ -27,6 +31,14 @@ nav{
 .navli a{
     text-decoration: none;
     color: black;
+}
+
+.navli a:hover{
+    transition: 0.2s ease-in-out;
+    color: #ff6900;
+    border-bottom: 1px;
+    
+    border-color: #ff6900;
 }
 
 .r_nav_o{
