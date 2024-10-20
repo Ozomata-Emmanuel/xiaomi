@@ -4,11 +4,19 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxyge, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body{
+    background-color: #f7f7f7;
+}
+
 
 /* NAVIGATION BAR */
 nav{
     box-shadow: 0px -30px 40px;
     width: 100%;
+    position: fixed;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
 }
 
 .nav{
@@ -40,22 +48,20 @@ nav{
 
 .navli a{
     text-decoration: none;
-    color: #292929;
-    font-weight: 600;
+    color: #191919;
+    font-weight: 400;
+    margin-left: 10px;
 }
 
 .navli a:hover{
     transition: 0.2s ease-in-out;
     color: #ff6900;
-    /* border: 0px 0px 2px 0px; */
-    /* border-style: solid; */
-    /* border-color: #ff6900; */
     text-decoration: underline #ff6900;
 }
 
 .r_nav_o{
     display: flex;
-    /* margin-right: 40px; */
+    margin-left: -20px;
 }
 
 .r_nav_o a{
@@ -89,11 +95,56 @@ nav{
 /* SECTION 1 */
 
 .section_1_o img{
+    width: 105%;
+    position: relative;
+    margin-top: 50px;
+    margin-left: -40px;
+}
+
+.section_1_o{
     width: 100%;
+    overflow: hidden;
 }
 
 .section_1_text_o{
-    
+    position: absolute;
+    margin-top: -330px;
+    width: 200px;
+    margin-left: 183px;
+}
+
+.section_1_text_o h2{
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.section_1_text_o h4{
+   color: #191919da;
+   margin-bottom: 10px;
+   font-size: 15px;
+}
+
+.section_1_text_o p{
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.section_1_text_o button{
+    background-color: #191919;
+    color: white;
+    padding: 4px 10px 7px 10px ;
+    border-radius: 7px;
+    font-weight: 700;
+    border-style: solid;
+    border: none;
+}
+
+.section_1_text_o button:hover{
+ background-color: #191919c7;
 }
 
 /* END OF SECTION 1 */
+
