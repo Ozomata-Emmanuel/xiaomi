@@ -20,7 +20,7 @@ nav{
 
 .l_nav_o{
     display: flex;
-    margin-left: -700px;
+    margin-left: -550px;
 }
 
 .xiaomi_image_o img{
@@ -55,17 +55,45 @@ nav{
 
 .r_nav_o{
     display: flex;
-    margin-right: 40px;
+    /* margin-right: 40px; */
+}
+
+.r_nav_o a{
+    margin-right: 30px;
+}
+
+.r_nav_o_img_2 img{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+}
+
+.r_nav_o_img_1 img{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
 }
 
 .r_nav_o_img{
     width: 20px;
     height: 20px;
-    background-color: blueviolet;
-    margin-left: 50px;
+    margin-right: 90px;
     display: flex;
     justify-content: space-between;
 }
 
 
 /* END OF NAVIGATION BAR */
+
+/* SECTION 1 */
+
+.section_1_o img{
+    width: 100%;
+}
+
+.section_1_text_o{
+    
+}
+
+/* END OF SECTION 1 */
