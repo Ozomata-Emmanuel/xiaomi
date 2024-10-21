@@ -17,6 +17,7 @@ nav{
     position: absolute;
     z-index: 100;
     background-color: white;
+    position: fixed;
 }
 
 .nav{
@@ -379,7 +380,7 @@ nav{
 
 .u_xs :hover{
     color: #ff6900;
-    transition: 0.5s ease-in-out;
+    transition: 0.1s ease-in-out;
     cursor: pointer;
 }
 
@@ -542,6 +543,10 @@ footer{
     color: white;
     font-size: 14px;
     font-weight: 500;
+}
+
+.footer_bottom a:hover{
+    text-decoration: underline;
 }
 
 
